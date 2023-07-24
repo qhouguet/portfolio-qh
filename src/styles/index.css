@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav.isNavActive {
+	display: flex;
+}
+
+body.isNavActive {
+	overflow: hidden;
+}
+
+header h2.isNavActive {
+	position: fixed;
+}

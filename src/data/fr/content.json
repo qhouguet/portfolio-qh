@@ -1,0 +1,49 @@
+{
+	"menu": {
+		"title": "houguet quentin",
+		"categories": ["Expertise", "Projets", "A propos"]
+	},
+	"mainTitle": ["salut 👋🏼 je suis", "houguet quentin"],
+	"subtitle": "développeur web",
+	"introduction": [
+		"Je viens de terminer ma formation chez ",
+		"OpenClassrooms",
+		" en tant que développeur web. Passionné par le développement front-end, je suis prêt à relever de nouveaux défis captivants."
+	],
+	"tools": {
+		"main": "outils connus",
+		"mainList": [
+			{
+				"name": "React",
+				"imageUrl": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/react.svg"
+			},
+			{
+				"name": "MongoDB",
+				"imageUrl": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/mongodb.svg"
+			},
+			{
+				"name": "NodeJS",
+				"imageUrl": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/nodejs.svg"
+			},
+			{
+				"name": "Astro",
+				"imageUrl": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/astro.svg"
+			}
+		],
+		"learn": "outils qui m'intéressent",
+		"learnList": ["VueJS", "NestJS", "NextJs", "PostegreSQL"]
+	},
+	"projets": {
+		"title": "projets",
+		"description": "Voici une sélection de projets réalisés dans le cadre de ma formation OpenClassrooms, j'ai mis tout mon cœur dans chacun de ceux que je présente. J'espère pouvoir rapidement compléter cette liste avec des projets personnels, en attendant,'est parti pour l'aventure ! 🚀"
+	},
+	"footer": {
+		"langLabel": "Langue",
+		"lang": ["Français", "Anglais"],
+		"socialLabel": "Social",
+		"social": ["LinkedIn", "Github", "Twitter"],
+		"contactLabel": "Contact",
+		"contact": "Vous souhaitez travailler avec moi ? Contactez moi : contact@qhouguet.fr",
+		"copyright": "Copyright © 2023, Houguet Quentin. All Rights Reserved."
+	}
+}
