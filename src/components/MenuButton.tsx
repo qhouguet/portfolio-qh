@@ -1,13 +1,13 @@
 import BURGER from 'assets/BURGER.svg';
 import CLOSE from 'assets/CLOSE.svg';
+import { useOpenContext } from 'src/context/open';
 
-type Props = {
-	open: boolean;
-	handleClick: () => void;
-};
+export const MenuButton = () => {
+	const { open, setOpen } = useOpenContext();
 
-export const MenuButton = ({ open, handleClick }: Props) => {
-	console.log(open);
+	const handleClick = () => {
+		setOpen(!open);
+	};
 
 	return (
 		<button
@@ -15,7 +15,7 @@ export const MenuButton = ({ open, handleClick }: Props) => {
 			id={'Open'}
 			className="fixed bottom-8 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-myGreen-dark"
 		>
-			<img src={open ? BURGER : CLOSE} alt={'Open / Close navigation menu'} />
+			<img src={open ? CLOSE : BURGER} alt={'Open / Close navigation menu'} />
 		</button>
 	);
 };

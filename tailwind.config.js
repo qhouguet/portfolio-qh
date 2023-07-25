@@ -52,7 +52,7 @@ export default {
 				}
 			},
 			backgroundImage: {
-				topography: "url('/images/topography.svg')"
+				topography: "url('./src/assets/topography.svg')"
 			}
 		}
 	},

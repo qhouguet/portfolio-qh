@@ -8,26 +8,31 @@
 	"introduction": [
 		"Je viens de terminer ma formation chez ",
 		"OpenClassrooms",
-		" en tant que développeur web. Passionné par le développement front-end, je suis prêt à relever de nouveaux défis captivants."
+		" en tant que développeur intégrateur web. Passionné par le développement front-end, je suis prêt à relever de nouveaux défis captivants."
 	],
+	"about": "Après quelques années passées dans la grande distribution, j'ai décidé de me lancer dans une reconversion professionnelle afin de devenir développeur frontend, alliant mes compétences en informatique et ma créativité. En parallèle, j'aspire à devenir designer UX/UI dans un futur proche, en mettant à profit ma sensibilité artistique et ma volonté de créer des expériences utilisateur exceptionnelles sur le web. Je suis enthousiaste à l'idée de relever ces nouveaux défis !",
 	"tools": {
 		"main": "outils connus",
 		"mainList": [
 			{
 				"name": "React",
-				"imageUrl": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/react.svg"
+				"imageUrl": "./images/react.svg"
 			},
 			{
 				"name": "MongoDB",
-				"imageUrl": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/mongodb.svg"
+				"imageUrl": "./images/mongodb.svg"
 			},
 			{
 				"name": "NodeJS",
-				"imageUrl": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/nodejs.svg"
+				"imageUrl": "./images/nodejs.svg"
 			},
 			{
 				"name": "Astro",
-				"imageUrl": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/astro.svg"
+				"imageUrl": "./images/astro.svg"
+			},
+			{
+				"name": "Typescript",
+				"imageUrl": "./images/typescript.svg"
 			}
 		],
 		"learn": "outils qui m'intéressent",

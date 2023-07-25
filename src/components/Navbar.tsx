@@ -1,14 +1,16 @@
+import { useOpenContext } from 'src/context/open';
+
 type Props = {
 	categories: string[];
-	open: boolean;
 };
 
-export const Navbar = ({ categories, open }: Props) => {
+export const Navbar = ({ categories }: Props) => {
+	const { open } = useOpenContext();
 	console.log(open);
 	return (
 		<nav
 			className={`fixed top-0 z-40 h-full w-full flex-col items-center justify-center bg-myGreen-neutral ${
-				open ? 'hidden' : 'flex'
+				open ? 'flex' : 'hidden'
 			}`}
 		>
 			<ul className="text-center">
