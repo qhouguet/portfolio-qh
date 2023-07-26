@@ -3,30 +3,30 @@
 		"TITLE": "houguet quentin",
 		"CATEGORIES": {
 			"1": "Expertise",
-			"2": "Projets",
-			"3": "A propos"
+			"2": "Projects",
+			"3": "About"
 		}
 	},
 	"HEADER": {
 		"TITLE": {
-			"1": "salut 👋🏼 je suis",
+			"1": "hey 👋🏼 i'm",
 			"2": "houguet quentin"
 		},
-		"SUBTITLE": "développeur web",
+		"SUBTITLE": "web developer",
 		"INTRODUCTION": {
-			"1": "Je viens de terminer ma formation chez ",
+			"1": "Recent ",
 			"2": "OpenClassrooms",
-			"3": " en tant que développeur intégrateur web. Passionné par le développement front-end, je suis prêt à relever de nouveaux défis captivants."
+			"3": " graduate passionate about front-end development, eager to create captivating web experiences with fresh skills and enthusiasm."
 		}
 	},
 	"ABOUT": {
-		"TITLE": "à propos",
-		"CONTENT": "Après quelques années passées dans la grande distribution, j'ai décidé de me lancer dans une reconversion professionnelle afin de devenir développeur frontend, alliant mes compétences en informatique et ma créativité. En parallèle, j'aspire à devenir designer UX/UI dans un futur proche, en mettant à profit ma sensibilité artistique et ma volonté de créer des expériences utilisateur exceptionnelles sur le web. Je suis enthousiaste à l'idée de relever ces nouveaux défis !",
+		"TITLE": "about",
+		"CONTENT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus ut nulla vel auctor. Nam id scelerisque arcu, a pulvinar ex. Quisque vel tincidunt nisl, sed venenatis odio. Sed ultricies.",
 		"IMAGEURL": "./images/avatar.png"
 	},
 	"TOOLS": {
 		"KNOWN": {
-			"TITLE": "outils connus",
+			"TITLE": "known tools",
 			"TOOL_LIST": {
 				"REACT": {
 					"NAME": "React",
@@ -51,7 +51,7 @@
 			}
 		},
 		"LEARNING": {
-			"TITLE": "outils qui m'intéressent",
+			"TITLE": "want to learn",
 			"LEARNING_LIST": {
 				"VUEJS": "VueJs",
 				"NESTJS": "NestJS",
@@ -61,32 +61,32 @@
 		}
 	},
 	"PROJECTS": {
-		"TITLE": "projets",
-		"DESCRIPTION": "Voici une sélection de projets réalisés dans le cadre de ma formation OpenClassrooms, j'ai mis tout mon cœur dans chacun de ceux que je présente. J'espère pouvoir rapidement compléter cette liste avec des projets personnels, en attendant,'est parti pour l'aventure ! 🚀",
+		"TITLE": "projects",
+		"DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur cursus ut nulla vel auctor. Nam id scelerisque arcu, a pulvinar ex. Quisque vel tincidunt nisl, sed venenatis odio. Sed ultricies. 🚀",
 		"PROJECT LIST": {
 			"1": {
-				"TITLE": "Projet 1",
+				"TITLE": "Project 1",
 				"TAGS": { "1": "HTML", "2": "CSS" },
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
 				"IMAGEURL": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/react.svg",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			},
 			"2": {
-				"TITLE": "Projet 2",
+				"TITLE": "Project 2",
 				"TAGS": { "1": "HTML", "2": "CSS" },
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
 				"IMAGEURL": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/react.svg",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			},
 			"3": {
-				"TITLE": "Projet 3",
+				"TITLE": "Project 3",
 				"TAGS": { "1": "HTML", "2": "CSS" },
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
 				"IMAGEURL": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/react.svg",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			},
 			"4": {
-				"TITLE": "Projet 4",
+				"TITLE": "Project 4",
 				"TAGS": { "1": "HTML", "2": "CSS" },
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
 				"IMAGEURL": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/react.svg",
@@ -96,10 +96,10 @@
 	},
 	"FOOTER": {
 		"LANGUAGE": {
-			"TITLE": "Langue",
+			"TITLE": "Language",
 			"LANG": {
-				"FR": "Français",
-				"EN": "Anglais"
+				"FR": "French",
+				"EN": "English"
 			}
 		},
 		"SOCIAL": {
@@ -121,7 +121,7 @@
 		},
 		"CONTACT": {
 			"TITLE": "Contact",
-			"DESCRIPTION": "Vous souhaitez travailler avec moi ? Contactez moi : contact@qhouguet.fr",
+			"DESCRIPTION": "Contact me : contact@qhouguet.fr",
 			"COPYRIGHT": "Copyright © 2023, Houguet Quentin. All Rights Reserved."
 		}
 	}

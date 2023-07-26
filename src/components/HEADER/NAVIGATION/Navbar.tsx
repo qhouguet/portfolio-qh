@@ -1,16 +1,16 @@
 import { useOpenContext } from 'src/context/open';
+import { useDataContext } from 'src/context/data';
 
-type Props = {
-	categories: string[];
-};
-
-export const Navbar = ({ categories }: Props) => {
+export const Navbar = () => {
 	const { open } = useOpenContext();
-	console.log(open);
+	const [t] = useDataContext();
+
+	const categories = ['1', '2', '3'].map((test) => t(`MENU.CATEGORIES.${test}`));
+
 	return (
 		<nav
 			className={`fixed top-0 z-40 h-full w-full flex-col items-center justify-center bg-myGreen-neutral ${
-				open ? 'flex' : 'hidden'
+				open ? 'pointer-events-auto flex' : 'hidden'
 			}`}
 		>
 			<ul className="text-center">

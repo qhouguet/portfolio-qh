@@ -6,6 +6,10 @@
 	font-size: 16px;
 }
 
+body {
+	overflow: hidden;
+}
+
 @layer components {
 	.subtitle {
 		@apply text-3xl font-bold uppercase text-myGreen-dark;

@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
 import 'styles/index.css';
-import { OpenContext } from './context/open';
+import { OpenContextProvider } from './context/open/OpenContextProvider.tsx';
+import { DataContextProvider } from './context/data/DataContextProvider.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-		<OpenContext>
-			<App />
-		</OpenContext>
+		<DataContextProvider>
+			<OpenContextProvider>
+				<App />
+			</OpenContextProvider>
+		</DataContextProvider>
 	</React.StrictMode>
 );
