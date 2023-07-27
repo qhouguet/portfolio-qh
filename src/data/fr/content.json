@@ -2,9 +2,18 @@
 	"MENU": {
 		"TITLE": "houguet quentin",
 		"CATEGORIES": {
-			"1": "Expertise",
-			"2": "Projets",
-			"3": "A propos"
+			"1": {
+				"NAME": "Expertise",
+				"ID": "SKILLS"
+			},
+			"2": {
+				"NAME": "Projets",
+				"ID": "PROJECTS"
+			},
+			"3": {
+				"NAME": "à propos",
+				"ID": "ABOUT"
+			}
 		}
 	},
 	"HEADER": {
@@ -63,33 +72,37 @@
 	"PROJECTS": {
 		"TITLE": "projets",
 		"DESCRIPTION": "Voici une sélection de projets réalisés dans le cadre de ma formation OpenClassrooms, j'ai mis tout mon cœur dans chacun de ceux que je présente. J'espère pouvoir rapidement compléter cette liste avec des projets personnels, en attendant,'est parti pour l'aventure ! 🚀",
-		"PROJECT LIST": {
+		"PROJECT_LIST": {
 			"1": {
 				"TITLE": "Projet 1",
 				"TAGS": { "1": "HTML", "2": "CSS" },
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
-				"IMAGEURL": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/react.svg",
+				"PAGEURL": "https://qhouguet.github.io/OC-Dev-Web_P2_BOOKI/",
+				"IMAGEURL": "./images/PLACEHOLDER.jpg",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			},
 			"2": {
 				"TITLE": "Projet 2",
 				"TAGS": { "1": "HTML", "2": "CSS" },
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
-				"IMAGEURL": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/react.svg",
+				"PAGEURL": "https://qhouguet.github.io/OC-Dev-Web_P2_BOOKI/",
+				"IMAGEURL": "./images/PLACEHOLDER.jpg",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			},
 			"3": {
 				"TITLE": "Projet 3",
 				"TAGS": { "1": "HTML", "2": "CSS" },
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
-				"IMAGEURL": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/react.svg",
+				"PAGEURL": "https://qhouguet.github.io/OC-Dev-Web_P2_BOOKI/",
+				"IMAGEURL": "./images/PLACEHOLDER.jpg",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			},
 			"4": {
 				"TITLE": "Projet 4",
 				"TAGS": { "1": "HTML", "2": "CSS" },
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
-				"IMAGEURL": "https://github.com/qhouguet/portfolio_p8/blob/main/public/images/react.svg",
+				"PAGEURL": "https://qhouguet.github.io/OC-Dev-Web_P2_BOOKI/",
+				"IMAGEURL": "./images/PLACEHOLDER.jpg",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			}
 		}
@@ -121,8 +134,12 @@
 		},
 		"CONTACT": {
 			"TITLE": "Contact",
-			"DESCRIPTION": "Vous souhaitez travailler avec moi ? Contactez moi : contact@qhouguet.fr",
-			"COPYRIGHT": "Copyright © 2023, Houguet Quentin. All Rights Reserved."
+			"DESCRIPTION": {
+				"1": "Vous souhaitez travailler avec moi ?",
+				"2": "Contactez moi : ",
+				"3": "contact@qhouguet.fr"
+			},
+			"COPYRIGHT": "Copyright © 2023, Houguet Quentin"
 		}
 	}
 }

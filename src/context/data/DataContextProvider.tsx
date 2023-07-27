@@ -2,11 +2,7 @@ import { useState, createContext, PropsWithChildren, useCallback } from 'react';
 import contentFR from '../../data/fr/content.json';
 import contentEN from '../../data/en/content.json';
 import { at } from 'lodash';
-
-enum LanguageEnum {
-	EN = 'EN',
-	FR = 'FR'
-}
+import { LanguageEnum } from 'src/models/enum/Language';
 
 type DataContext = [(path: string) => string, (l: LanguageEnum) => void];
 

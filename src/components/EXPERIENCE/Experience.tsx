@@ -14,7 +14,10 @@ export const Experience = () => {
 	);
 
 	return (
-		<section className="flex h-full w-full flex-col items-center bg-myGreen-neutral px-4 py-16">
+		<section
+			id="SKILLS"
+			className="flex h-full w-full flex-col items-center bg-myGreen-neutral px-4 py-16"
+		>
 			<h2 className="subtitle text-center text-myBlack-dark">{TOOLTITLE}</h2>
 			<div className="pt-8">
 				{TECHNO.map((techno) => {
@@ -30,7 +33,6 @@ export const Experience = () => {
 						</li>
 					);
 				})}
-				8
 			</ul>
 		</section>
 	);

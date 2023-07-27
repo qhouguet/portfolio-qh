@@ -7,7 +7,7 @@ export const About = () => {
 	const CONTENT = t('ABOUT.CONTENT');
 
 	return (
-		<figure className="flex w-full flex-col bg-myGreen-light bg-topography px-4 py-16">
+		<figure id="ABOUT" className="flex w-full flex-col bg-myGreen-light bg-topography px-4 py-16">
 			<img src={AVATAR} className="h-72 w-72 self-center rounded-full" />
 			<figcaption className="pt-10">
 				<h2 className="subtitle">{TITLE}</h2>
