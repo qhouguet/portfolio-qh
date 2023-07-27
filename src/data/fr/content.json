@@ -3,16 +3,16 @@
 		"TITLE": "houguet quentin",
 		"CATEGORIES": {
 			"1": {
-				"NAME": "Expertise",
-				"ID": "SKILLS"
-			},
-			"2": {
-				"NAME": "Projets",
-				"ID": "PROJECTS"
-			},
-			"3": {
 				"NAME": "à propos",
 				"ID": "ABOUT"
+			},
+			"2": {
+				"NAME": "expertise",
+				"ID": "SKILLS"
+			},
+			"3": {
+				"NAME": "projets",
+				"ID": "PROJECTS"
 			}
 		}
 	},
@@ -74,35 +74,43 @@
 		"DESCRIPTION": "Voici une sélection de projets réalisés dans le cadre de ma formation OpenClassrooms, j'ai mis tout mon cœur dans chacun de ceux que je présente. J'espère pouvoir rapidement compléter cette liste avec des projets personnels, en attendant,'est parti pour l'aventure ! 🚀",
 		"PROJECT_LIST": {
 			"1": {
-				"TITLE": "Projet 1",
-				"TAGS": { "1": "HTML", "2": "CSS" },
-				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
+				"TITLE": "Booki, agence de voyage",
+				"TAGS": { "1": "HTML", "2": "CSS", "3": "Responsive" },
+				"URL": "https://github.com/qhouguet/OC-Dev-Web_P2_BOOKI",
 				"PAGEURL": "https://qhouguet.github.io/OC-Dev-Web_P2_BOOKI/",
-				"IMAGEURL": "./images/PLACEHOLDER.jpg",
+				"IMAGEURL": "./images/BOOKI.webp",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			},
 			"2": {
-				"TITLE": "Projet 2",
-				"TAGS": { "1": "HTML", "2": "CSS" },
-				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
-				"PAGEURL": "https://qhouguet.github.io/OC-Dev-Web_P2_BOOKI/",
-				"IMAGEURL": "./images/PLACEHOLDER.jpg",
+				"TITLE": "Portfolio Sophie Bluel",
+				"TAGS": { "1": "HTML", "2": "CSS", "3": "JS" },
+				"URL": "https://github.com/qhouguet/OC-Dev-Web_P3_Js-Sophie-Bluel",
+				"PAGEURL": "https://github.com/qhouguet/OC-Dev-Web_P3_Js-Sophie-Bluel",
+				"IMAGEURL": "./images/BLUEL.webp",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			},
 			"3": {
-				"TITLE": "Projet 3",
-				"TAGS": { "1": "HTML", "2": "CSS" },
-				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
-				"PAGEURL": "https://qhouguet.github.io/OC-Dev-Web_P2_BOOKI/",
-				"IMAGEURL": "./images/PLACEHOLDER.jpg",
+				"TITLE": "Mon vieux grimoire",
+				"TAGS": { "1": "NodeJS", "2": "ExpressJs", "3": "MongoDB" },
+				"URL": "https://github.com/qhouguet/oc_dev-web_p7_backend",
+				"PAGEURL": "https://github.com/qhouguet/oc_dev-web_p7_backend",
+				"IMAGEURL": "./images/GRIMOIRE.webp",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			},
 			"4": {
-				"TITLE": "Projet 4",
-				"TAGS": { "1": "HTML", "2": "CSS" },
+				"TITLE": "Kasa, location immobilière",
+				"TAGS": { "1": "React", "2": "React-dom-router", "3": "SASS" },
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
-				"PAGEURL": "https://qhouguet.github.io/OC-Dev-Web_P2_BOOKI/",
-				"IMAGEURL": "./images/PLACEHOLDER.jpg",
+				"PAGEURL": "https://qhouguet.github.io/oc-dev-web_p6_kasa/#/",
+				"IMAGEURL": "./images/KASA.webp",
+				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
+			},
+			"5": {
+				"TITLE": "Mon portfolio",
+				"TAGS": { "1": "React", "2": "Typescript", "3": "Tailwindcss" },
+				"URL": "https://github.com/qhouguet/portfolio-qh",
+				"PAGEURL": "https://github.com/qhouguet/portfolio-qh",
+				"IMAGEURL": "./images/FOLIO.webp",
 				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
 			}
 		}

@@ -13,9 +13,9 @@ export const DataContextProvider = ({ children }: PropsWithChildren) => {
 		(path: string) => {
 			switch (language) {
 				case LanguageEnum.EN:
-					return at(contentEN, path)[0] as unknown as string;
+					return at(contentEN, path)[0].toString();
 				case LanguageEnum.FR:
-					return at(contentFR, path)[0] as unknown as string;
+					return at(contentFR, path)[0].toString();
 				default:
 					console.error('Unhandled...');
 					return '';

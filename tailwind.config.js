@@ -49,6 +49,9 @@ export default {
 				},
 				myBlack: {
 					dark: '#202020'
+				},
+				myOrange: {
+					neutral: '#FD6F63'
 				}
 			},
 			backgroundImage: {

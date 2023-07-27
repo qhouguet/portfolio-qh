@@ -6,7 +6,10 @@ import Headings from './Headings';
 // </section>;
 export const HeroBanner = () => {
 	return (
-		<section className="flex h-screen w-full flex-col items-center justify-center bg-myGreen-neutral px-4">
+		<section
+			id="HOME"
+			className="flex h-screen w-full flex-col items-center justify-center bg-myGreen-neutral px-4"
+		>
 			<Headings />
 		</section>
 	);

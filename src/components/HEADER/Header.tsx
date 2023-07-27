@@ -1,13 +1,10 @@
 import { Navbar } from './NAVIGATION/Navbar';
 import { MenuButton } from './NAVIGATION/MenuButton';
-// import { useContext } from 'react';
-// import { OpenContext } from 'src/App';
-
 import { useOpenContext } from 'src/context/open';
 import { useDataContext } from 'src/context/data';
 
 export const Header = () => {
-	const { open } = useOpenContext();
+	const { open, handleOpen } = useOpenContext();
 	const [t] = useDataContext();
 	const title = t('MENU.TITLE');
 
@@ -18,7 +15,9 @@ export const Header = () => {
 					open ? 'fixed' : 'hidden'
 				}`}
 			>
-				{title}
+				<a onClick={handleOpen} href="#HOME">
+					{title}
+				</a>
 			</h2>
 			<Navbar />
 			<MenuButton />
