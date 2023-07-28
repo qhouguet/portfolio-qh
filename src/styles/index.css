@@ -16,6 +16,21 @@ body {
 	}
 }
 
-select {
-	background-color: none;
+@media screen and (min-width: 1024px) {
+	.project-list-desktop:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+
+	.project-list-desktop:nth-child(even) div {
+		padding-left: 0;
+		padding-right: 2rem;
+	}
+}
+
+.select-lang-active {
+	transform: rotate(90deg);
+}
+
+.select-lang {
+	transition: transform 100ms linear;
 }

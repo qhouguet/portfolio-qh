@@ -47,7 +47,7 @@
 				},
 				"NODEJS": {
 					"NAME": "NodeJS",
-					"IMAGEURL": "./images/react.svg"
+					"IMAGEURL": "./images/nodejs.svg"
 				},
 				"ASTRO": {
 					"NAME": "Astro",
@@ -71,7 +71,7 @@
 	},
 	"PROJECTS": {
 		"TITLE": "projets",
-		"DESCRIPTION": "Voici une sélection de projets réalisés dans le cadre de ma formation OpenClassrooms, j'ai mis tout mon cœur dans chacun de ceux que je présente. J'espère pouvoir rapidement compléter cette liste avec des projets personnels, en attendant,'est parti pour l'aventure ! 🚀",
+		"DESCRIPTION": "Voici une sélection de projets réalisés dans le cadre de ma formation OpenClassrooms, j'ai mis tout mon cœur dans chacun de ceux que je présente. J'espère pouvoir rapidement compléter cette liste avec des projets personnels, en attendant, c'est parti pour l'aventure ! 🚀",
 		"PROJECT_LIST": {
 			"1": {
 				"TITLE": "Booki, agence de voyage",

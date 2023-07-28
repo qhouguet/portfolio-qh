@@ -12,7 +12,7 @@ export const Social = () => {
 	}));
 
 	return (
-		<div className="pt-16">
+		<div className="pt-16 lg:pt-0">
 			<h3 className="font-bold uppercase">{TITLE}</h3>
 			<div className="flex flex-col text-xl text-myGreen-dark">
 				{LINKS.map((link) => (

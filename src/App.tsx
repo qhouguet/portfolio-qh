@@ -13,7 +13,9 @@ function App() {
 		<>
 			<Header />
 			<div
-				className={`w-scren h-screen scroll-smooth ${open ? 'overflow-hidden' : 'overflow-auto'}`}
+				className={`w-scren h-screen scroll-smooth ${
+					open ? 'overflow-hidden' : 'overflow-auto'
+				} lg:overflow-auto`}
 			>
 				<HeroBanner />
 				<main>

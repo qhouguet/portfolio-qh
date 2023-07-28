@@ -19,7 +19,7 @@ export const CustomSelect = ({ toggleMenu, selectedLang, open }: Props) => {
 			<img
 				src={ARROW}
 				alt="Chevron ouverture menu selection langue"
-				className={`w-3 self-center pt-0.5 ${open ? 'up' : 'down'}`}
+				className={`select-lang w-3 self-center pt-0.5 ${open ? 'select-lang-active' : ''}`}
 			/>
 		</div>
 	);

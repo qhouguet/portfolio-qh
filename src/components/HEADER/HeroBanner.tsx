@@ -8,7 +8,7 @@ export const HeroBanner = () => {
 	return (
 		<section
 			id="HOME"
-			className="flex h-screen w-full flex-col items-center justify-center bg-myGreen-neutral px-4"
+			className="flex h-screen w-full flex-col items-center justify-center bg-myGreen-neutral px-4 lg:px-8"
 		>
 			<Headings />
 		</section>

@@ -10,7 +10,7 @@ export const Contact = () => {
 	);
 
 	return (
-		<div className="w-5/6 py-16">
+		<div className="w-5/6 py-16 lg:w-auto lg:py-0">
 			<h3 className="font-bold uppercase">{CONTACTTITLE}</h3>
 			<p className="pt-2 text-xl text-myGreen-dark">
 				{CONTACTDESCRIPTION[0]}

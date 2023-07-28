@@ -47,7 +47,7 @@
 				},
 				"NODEJS": {
 					"NAME": "NodeJS",
-					"IMAGEURL": "./images/react.svg"
+					"IMAGEURL": "./images/nodejs.svg"
 				},
 				"ASTRO": {
 					"NAME": "Astro",

@@ -16,23 +16,27 @@ export const ProjectList = () => {
 	const DESCRIPTION = t('PROJECTS.DESCRIPTION');
 
 	return (
-		<section id="PROJECTS" className="bg-myGreen-light bg-topography  px-4 pt-16">
-			<h2 className="subtitle pb-2">{TITLE}</h2>
-			<p className="text-xl">{DESCRIPTION}</p>
-			<div className="pb-4 pt-16">
-				{PROJECTLIST.map((project) => {
-					return (
-						<Project
-							TITLE={project.TITLE}
-							TAGS={project.TAGS as string[]}
-							URL={project.URL}
-							PAGEURL={project.PAGEURL}
-							IMAGE={project.IMAGEURL}
-							DESCRIPTION={project.DESCRIPTION}
-							key={project.TITLE}
-						/>
-					);
-				})}
+		<section id="PROJECTS" className="bg-myGreen-light bg-topography bg-repeat px-4 pt-16 lg:px-8">
+			<div className="lg:mx-auto lg:max-w-screen-xl">
+				<div className="lg:w-1/2">
+					<h2 className="subtitle pb-2">{TITLE}</h2>
+					<p className="text-xl">{DESCRIPTION}</p>
+				</div>
+				<div className="pb-4 pt-16">
+					{PROJECTLIST.map((project) => {
+						return (
+							<Project
+								TITLE={project.TITLE}
+								TAGS={project.TAGS as string[]}
+								URL={project.URL}
+								PAGEURL={project.PAGEURL}
+								IMAGE={project.IMAGEURL}
+								DESCRIPTION={project.DESCRIPTION}
+								key={project.TITLE}
+							/>
+						);
+					})}
+				</div>
 			</div>
 		</section>
 	);
