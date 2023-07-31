@@ -2,7 +2,7 @@ import { useOpenContext } from 'src/context/open';
 import { useDataContext } from 'src/context/data';
 
 export const Navbar = () => {
-	const { open, handleOpen } = useOpenContext();
+	const { handleOpen } = useOpenContext();
 	const [t] = useDataContext();
 
 	const categories = ['1', '2', '3'].map((nav) => ({
@@ -11,11 +11,7 @@ export const Navbar = () => {
 	}));
 
 	return (
-		<nav
-			className={`fixed top-0 z-40 h-full w-full flex-col items-center justify-center bg-myGreen-neutral ${
-				open ? 'pointer-events-auto flex' : 'hidden'
-			} lg:pointer-events-auto lg:static lg:flex lg:h-auto lg:w-fit lg:flex-row lg:bg-transparent`}
-		>
+		<nav className="fixed top-0 z-40 flex h-full w-full flex-col items-center justify-center bg-myGreen-neutral lg:pointer-events-auto lg:static lg:flex lg:h-auto lg:w-fit lg:flex-row lg:bg-transparent">
 			<ul className="text-center lg:flex lg:flex-row">
 				{categories.map((category) => (
 					<li

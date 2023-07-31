@@ -1,0 +1,98 @@
+.select-lang-active {
+	transform: rotate(90deg);
+}
+
+.select-lang {
+	transition: transform 150ms linear;
+}
+
+.bun {
+	@apply absolute block h-1 w-9
+	rounded-sm bg-myGreen-neutral;
+}
+
+.bun-top {
+	top: 35%;
+}
+
+.bun-bot {
+	bottom: 35%;
+}
+
+.burger-container.isOpen .bun-top {
+	animation: bun-top-out 200ms linear normal;
+	animation-fill-mode: forwards;
+}
+
+.burger-container.isOpen .bun-bot {
+	animation: bun-bot-out 200ms linear normal;
+	animation-fill-mode: forwards;
+}
+
+.burger-container.isClosed .bun-top {
+	animation: bun-top-in 200ms linear normal;
+	animation-fill-mode: forwards;
+}
+
+.burger-container.isClosed .bun-bot {
+	animation: bun-bot-in 200ms linear normal;
+	animation-fill-mode: forwards;
+}
+
+@keyframes bun-top-out {
+	0% {
+		transform-origin: center;
+		transform: rotate(0) translateY(0);
+	}
+	100% {
+		transform-origin: center;
+		transform: translateY(0.5rem) rotate(45deg);
+	}
+}
+
+@keyframes bun-bot-out {
+	0% {
+		transform-origin: center;
+		transform: rotate(0deg) translateY(0);
+	}
+	100% {
+		transform-origin: center;
+		transform: translateY(-0.5rem) rotate(-45deg);
+	}
+}
+
+@keyframes bun-top-in {
+	0% {
+		transform-origin: center;
+		transform: translateY(0.5rem) rotate(45deg);
+	}
+	100% {
+		transform-origin: center;
+		transform: translateY(0) rotate(0);
+	}
+}
+
+@keyframes bun-bot-in {
+	0% {
+		transform-origin: center;
+		transform: translateY(-0.5rem) rotate(-45deg);
+	}
+	100% {
+		transform-origin: center;
+		transform: translateY(0) rotate(0);
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.menu {
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity 0.15s linear;
+		visibility: hidden;
+	}
+	.menu.isOpen {
+		visibility: visible;
+		pointer-events: auto;
+		opacity: 1;
+	}
+}

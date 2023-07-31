@@ -26,11 +26,3 @@ body {
 		padding-right: 2rem;
 	}
 }
-
-.select-lang-active {
-	transform: rotate(90deg);
-}
-
-.select-lang {
-	transition: transform 100ms linear;
-}

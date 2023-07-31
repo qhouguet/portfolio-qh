@@ -7,7 +7,7 @@
 				"ID": "ABOUT"
 			},
 			"2": {
-				"NAME": "expertise",
+				"NAME": "mes outils",
 				"ID": "SKILLS"
 			},
 			"3": {
@@ -23,14 +23,14 @@
 		},
 		"SUBTITLE": "développeur web",
 		"INTRODUCTION": {
-			"1": "Je viens de terminer ma formation chez ",
-			"2": "OpenClassrooms",
-			"3": " en tant que développeur intégrateur web. Passionné par le développement front-end, je suis prêt à relever de nouveaux défis captivants."
+			"1": "Je viens de terminer ma formation de ",
+			"2": "développeur intégrateur web.",
+			"3": " Animé par une passion pour le design, je cherche à relever de nouveaux défis captivants !"
 		}
 	},
 	"ABOUT": {
 		"TITLE": "à propos",
-		"CONTENT": "Après quelques années passées dans la grande distribution, j'ai décidé de me lancer dans une reconversion professionnelle afin de devenir développeur frontend, alliant mes compétences en informatique et ma créativité. En parallèle, j'aspire à devenir designer UX/UI dans un futur proche, en mettant à profit ma sensibilité artistique et ma volonté de créer des expériences utilisateur exceptionnelles sur le web. Je suis enthousiaste à l'idée de relever ces nouveaux défis !",
+		"CONTENT": "Après quelques années passées dans la grande distribution, j'ai décidé de me lancer dans une reconversion professionnelle afin de devenir développeur frontend, alliant mes compétences en informatique et ma créativité. En parallèle, j'aspire à devenir designer UX/UI dans un futur proche, en mettant à profit ma sensibilité artistique et ma volonté de créer des expériences utilisateur plaisantes sur le web. Je suis enthousiaste à l'idée de relever ces nouveaux défis !",
 		"IMAGEURL": "./images/avatar.png"
 	},
 	"TOOLS": {
@@ -79,15 +79,15 @@
 				"URL": "https://github.com/qhouguet/OC-Dev-Web_P2_BOOKI",
 				"PAGEURL": "https://qhouguet.github.io/OC-Dev-Web_P2_BOOKI/",
 				"IMAGEURL": "./images/BOOKI.webp",
-				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
+				"DESCRIPTION": "Dans le cadre de ma formation OpenClassrooms, j'ai été chargé d'intégrer la maquette du site web de l'agence Booki. L'intégration a été réalisée uniquement en HTML et CSS vanilla. Lors du développement, j'ai été confronté à mes premiers obstacles qui concernaient la gestion de la partie responsive, mais avec de l'acharnement, le projet a été mené à bien !"
 			},
 			"2": {
-				"TITLE": "Portfolio Sophie Bluel",
+				"TITLE": "Portfolio de Sophie Bluel",
 				"TAGS": { "1": "HTML", "2": "CSS", "3": "JS" },
 				"URL": "https://github.com/qhouguet/OC-Dev-Web_P3_Js-Sophie-Bluel",
 				"PAGEURL": "https://github.com/qhouguet/OC-Dev-Web_P3_Js-Sophie-Bluel",
 				"IMAGEURL": "./images/BLUEL.webp",
-				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
+				"DESCRIPTION": "Ce projet a été l'occasion pour moi de découvrir le Javascript vanilla afin de réaliser la partie dynamique du portfolio d'une photographe ! Pour cela j'ai du faire mes premières requêtes HTTP avec fetch dans le front-end du site, et apprendre à manipuler le DOM. J'ai aussi pu pour la première fois voir comment organiser l'architecture d'un projet professionnel."
 			},
 			"3": {
 				"TITLE": "Mon vieux grimoire",
@@ -95,7 +95,7 @@
 				"URL": "https://github.com/qhouguet/oc_dev-web_p7_backend",
 				"PAGEURL": "https://github.com/qhouguet/oc_dev-web_p7_backend",
 				"IMAGEURL": "./images/GRIMOIRE.webp",
-				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
+				"DESCRIPTION": "Première expérience de développement du backend d'un site web. J'ai été chargé de développer l'API et le serveur pour faire fonctionner le front-end du site 'Mon Vieux Grimoire' qui permet à ses utilisateurs de s'enregistrer, ajouter les livres qu'ils souhaitent et les noter ! Bien que la partie gestion de la récupération des images et leur traitement pour réduire leur poids / taille m'a posé quelques soucis, j'ai pu terminer ce projet sans soucis."
 			},
 			"4": {
 				"TITLE": "Kasa, location immobilière",
@@ -103,7 +103,7 @@
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
 				"PAGEURL": "https://qhouguet.github.io/oc-dev-web_p6_kasa/#/",
 				"IMAGEURL": "./images/KASA.webp",
-				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
+				"DESCRIPTION": "Découverte du framework / de la bibliothèque React afin de réaliser la nouvelle version du site web de Kasa qui propose des locations immobilières. J'ai pu me familiariser avec la notion et le développement des composants fonctionnels, ainsi que des props et faire quelques manipulations du state. J'ai aussi réalisé la partie CSS du site avec SASS en SCSS."
 			},
 			"5": {
 				"TITLE": "Mon portfolio",
@@ -111,7 +111,7 @@
 				"URL": "https://github.com/qhouguet/portfolio-qh",
 				"PAGEURL": "https://github.com/qhouguet/portfolio-qh",
 				"IMAGEURL": "./images/FOLIO.webp",
-				"DESCRIPTION": "Aenean neque nibh, rutrum non magna non, aliquet placerat ante. Pellentesque mollis orci ut mi consequat blandit. Cras venenatis augue et sapien commodo bibendum. Vestibulum cursus lacus in est efficitur dictum. Aliquam erat volutpat. Mauris eu leo elementum, iaculis enim quis, interdum est. Nam hendrerit mollis erat, a dictum turpis feugiat eget. Cras et fermentum velit. Vivamus sodales in sem feugiat semper. Aliquam ultrices purus neque, at pulvinar mi interdum vel."
+				"DESCRIPTION": "Pour la réalisation de mon portfolio, j'ai tout d'abord voulu partir sur le framework Astro qui est très léger et simple pour ce genre de projets. Cependant, pour monter en compétences sur React, j'ai préféré utiliser cette technologie ci à la place. J'ai notamment pu approfondir les notions de contexte, de state ainsi que d'utiliser un format normé de données. Cette approche du projet pour mon portfolio est très lourde et aurait pu être simplifiée, mais j'ai pu développer de nouvelles compétences et maîtriser un peu plus ce framework."
 			}
 		}
 	},
