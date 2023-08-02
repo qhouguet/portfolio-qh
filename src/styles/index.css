@@ -26,3 +26,7 @@ body {
 		padding-right: 2rem;
 	}
 }
+
+.isOpen {
+	background-color: #fdfff5;
+}

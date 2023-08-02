@@ -8,7 +8,7 @@
 
 .bun {
 	@apply absolute block h-1 w-9
-	rounded-sm bg-myGreen-neutral;
+	rounded-sm bg-myGreen-light;
 }
 
 .bun-top {
@@ -20,11 +20,13 @@
 }
 
 .burger-container.isOpen .bun-top {
+	background-color: #0a6259;
 	animation: bun-top-out 200ms linear normal;
 	animation-fill-mode: forwards;
 }
 
 .burger-container.isOpen .bun-bot {
+	background-color: #0a6259;
 	animation: bun-bot-out 200ms linear normal;
 	animation-fill-mode: forwards;
 }
@@ -95,4 +97,26 @@
 		pointer-events: auto;
 		opacity: 1;
 	}
+}
+
+@keyframes wiggle {
+	0% {
+		transform: rotate(1deg);
+	}
+	25% {
+		transform: rotate(-1deg);
+	}
+	50% {
+		transform: rotate(2deg);
+	}
+	75% {
+		transform: rotate(-1deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+.TEST:hover {
+	animation: wiggle 1s ease-in-out;
 }

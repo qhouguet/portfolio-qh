@@ -12,7 +12,7 @@ type Props = {
 export const Project = ({ IMAGE, TITLE, TAGS, URL, PAGEURL, DESCRIPTION }: Props) => {
 	return (
 		<div className="project-list-desktop flex flex-col items-center pb-16 lg:flex lg:flex-row lg:items-start lg:justify-between">
-			<a className="inline-block max-w-sm overflow-hidden rounded-xl" href={PAGEURL}>
+			<a className="TEST inline-block max-w-sm overflow-hidden rounded-xl" href={PAGEURL}>
 				<img
 					className="scale-105 object-cover"
 					src={IMAGE}

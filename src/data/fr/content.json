@@ -18,7 +18,7 @@
 	},
 	"HEADER": {
 		"TITLE": {
-			"1": "salut 👋🏼 je suis",
+			"1": "Salut 👋🏼 je suis",
 			"2": "houguet quentin"
 		},
 		"SUBTITLE": "développeur web",
@@ -99,7 +99,7 @@
 			},
 			"4": {
 				"TITLE": "Kasa, location immobilière",
-				"TAGS": { "1": "React", "2": "React-dom-router", "3": "SASS" },
+				"TAGS": { "1": "React", "2": "Routing", "3": "SASS" },
 				"URL": "https://github.com/qhouguet/oc-dev-web_p6_kasa",
 				"PAGEURL": "https://qhouguet.github.io/oc-dev-web_p6_kasa/#/",
 				"IMAGEURL": "./images/KASA.webp",

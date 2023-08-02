@@ -11,10 +11,10 @@ export const Header = () => {
 	return (
 		<header className="flex justify-center">
 			<div
-				className={`menu pointer-events-none absolute z-20 flex h-screen w-screen flex-col items-center lg:pointer-events-auto lg:visible lg:top-0 lg:flex lg:h-14 lg:flex-row lg:justify-between lg:bg-myGreen-neutral lg:px-8 lg:opacity-100
+				className={`menu pointer-events-none absolute z-20 flex h-screen w-screen flex-col items-center lg:pointer-events-auto lg:visible lg:top-0 lg:flex lg:h-14 lg:flex-row lg:justify-between lg:bg-myGreen-dark lg:px-8 lg:opacity-100
 			${open ? 'isOpen' : ''}`}
 			>
-				<h2 className="lg:fit z-50 w-full py-8 text-center text-2xl font-extrabold uppercase italic text-myGreen-dark lg:static lg:inline-block lg:max-w-xs lg:p-0 lg:text-left">
+				<h2 className="lg:fit z-50 w-full py-8 text-center text-2xl font-extrabold uppercase italic text-myGreen-light lg:static lg:inline-block lg:max-w-xs lg:p-0 lg:text-left">
 					<a className="lg:inline-block lg:w-fit" onClick={handleOpen} href="#HOME">
 						{title}
 					</a>

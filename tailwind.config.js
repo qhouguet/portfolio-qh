@@ -7,9 +7,9 @@ export default {
 				open: ['Open Sans']
 			},
 			animation: {
-				expand: 'expand 200ms linear 700ms forwards',
-				expandReverse: 'expandReverse 200ms linear 700ms forwards',
-				bgFlash: 'bgFlash 500ms linear forwards'
+				expand: 'expand 200ms linear 3000ms forwards',
+				expandReverse: 'expandReverse 200ms linear 3000ms forwards',
+				bgFlash: 'bgFlash 3000ms ease-in forwards'
 			},
 			keyframes: {
 				expand: {
@@ -35,7 +35,7 @@ export default {
 						backgroundColor: '#C4D0AE'
 					},
 					'100%': {
-						backgroundColor: '#fdfff5'
+						backgroundColor: '#FFF'
 					}
 				}
 			},
