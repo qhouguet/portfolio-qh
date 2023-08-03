@@ -15,7 +15,11 @@ export const Header = () => {
 			${open ? 'isOpen' : ''}`}
 			>
 				<h2 className="lg:fit z-50 w-full py-8 text-center text-2xl font-extrabold uppercase italic text-myGreen-light lg:static lg:inline-block lg:max-w-xs lg:p-0 lg:text-left">
-					<a className="lg:inline-block lg:w-fit" onClick={handleOpen} href="#HOME">
+					<a
+						className="hover:text-myOrange-neutral lg:inline-block lg:w-fit"
+						onClick={handleOpen}
+						href="#HOME"
+					>
 						{title}
 					</a>
 				</h2>

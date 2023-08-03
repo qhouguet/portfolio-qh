@@ -10,10 +10,14 @@ type Props = {
 export const CustomOption = ({ selectedLang, language, handleLanguageSelection }: Props) => {
 	return (
 		<div
-			className={`${selectedLang === language ? 'hidden' : ''}`}
+			className={`${selectedLang === language ? 'hidden' : ''} flex`}
 			onClick={() => handleLanguageSelection(language as LanguageEnum)}
 		>
-			<span className="pt-px">{countryFlag[language as LanguageEnum]}</span>
+			<img
+				alt={`${language} flag`}
+				src={countryFlag[language as LanguageEnum]}
+				className="w-6 pt-px"
+			/>
 			<span className="px-2">{language}</span>
 		</div>
 	);

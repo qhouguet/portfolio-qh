@@ -45,7 +45,7 @@ export default {
 				myGreen: {
 					light: '#fdfff5',
 					neutral: '#C4D0AE',
-					dark: '#0A6259'
+					dark: '#0A3D38'
 				},
 				myBlack: {
 					dark: '#202020'
@@ -55,7 +55,7 @@ export default {
 				}
 			},
 			backgroundImage: {
-				topography: "url('./src/assets/topography.svg')"
+				topography: "url('/images/topography.svg')"
 			}
 		}
 	},

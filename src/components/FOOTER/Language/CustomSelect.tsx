@@ -14,7 +14,7 @@ export const CustomSelect = ({ toggleMenu, selectedLang, open }: Props) => {
 			className="flex w-1/2 cursor-pointer flex-row items-center pl-0.5 pt-2 text-xl text-myGreen-dark"
 			onClick={toggleMenu}
 		>
-			<span className="pt-px">{countryFlag[selectedLang]}</span>
+			<img alt={`${selectedLang} flag`} src={countryFlag[selectedLang]} className="w-6 pt-px" />
 			<span className="px-2">{selectedLang}</span>
 			<img
 				src={ARROW}

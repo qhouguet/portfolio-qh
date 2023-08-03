@@ -5,6 +5,8 @@ export const MenuButton = () => {
 
 	return (
 		<button
+			type="button"
+			aria-label="Open/Close menu button"
 			onClick={handleOpen}
 			className="pointer-events-auto fixed bottom-8 z-50 flex h-16 w-16 items-center justify-center overflow-hidden rounded-full bg-myGreen-dark lg:hidden"
 		>

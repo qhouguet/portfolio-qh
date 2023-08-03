@@ -26,7 +26,10 @@ export const Project = ({ IMAGE, TITLE, TAGS, URL, PAGEURL, DESCRIPTION }: Props
 						return <Tag key={tag} TAG={tag} />;
 					})}
 				</ul>
-				<a className="text-center text-2xl underline" href={URL}>
+				<a
+					className="transform text-center text-2xl underline transition duration-100 hover:scale-110 hover:text-myOrange-neutral"
+					href={URL}
+				>
 					Github
 				</a>
 				<p className="pt-4">{DESCRIPTION}</p>

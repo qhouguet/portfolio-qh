@@ -16,7 +16,10 @@ export const Contact = () => {
 				{CONTACTDESCRIPTION[0]}
 				<br />
 				<span className="font-semibold text-myBlack-dark">{CONTACTDESCRIPTION[1]}</span>
-				<a href={`mailto:${CONTACTDESCRIPTION[2]}`} className="underline">
+				<a
+					href={`mailto:${CONTACTDESCRIPTION[2]}`}
+					className="underline hover:text-myOrange-neutral"
+				>
 					{CONTACTDESCRIPTION[2]}
 				</a>
 			</p>

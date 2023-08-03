@@ -17,7 +17,7 @@ export const Navbar = () => {
 					<li
 						onClick={handleOpen}
 						key={category.ID}
-						className="my-16 cursor-pointer text-4xl font-extrabold uppercase text-myGreen-light lg:my-0 lg:ml-16 lg:text-base lg:font-normal lg:italic"
+						className="my-16 cursor-pointer text-4xl font-extrabold uppercase text-myGreen-light hover:text-myOrange-neutral lg:my-0 lg:ml-16 lg:text-base lg:font-normal lg:italic"
 					>
 						<a href={`#${category.ID}`}>{category.NAME}</a>
 					</li>
