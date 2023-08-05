@@ -9,6 +9,8 @@ import { Footer } from './components/FOOTER/Footer';
 function App() {
 	const { open } = useOpenContext();
 
+	/* La div nous permet d'empêcher le scroll lors du passage en mode "menu" sur la version mobile */
+
 	return (
 		<>
 			<Header />

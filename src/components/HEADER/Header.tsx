@@ -7,7 +7,7 @@ export const Header = () => {
 	const { open, handleOpen } = useOpenContext();
 	const [t] = useDataContext();
 	const title = t('MENU.TITLE');
-
+	
 	return (
 		<header className="flex justify-center">
 			<div

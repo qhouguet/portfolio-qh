@@ -4,6 +4,8 @@ import { Project } from './Project';
 export const ProjectList = () => {
 	const [t] = useDataContext();
 
+	// On créé un tableau sur lequel on va pouvoir itérer pour récupérer nos données,
+	// puis on l'utilisera pour générer les projets dans le dom
 	const PROJECTLIST = ['1', '2', '3', '4', '5'].map((project) => ({
 		TITLE: t(`PROJECTS.PROJECT_LIST.${project}.TITLE`),
 		TAGS: ['1', '2', '3'].map((tag) => t(`PROJECTS.PROJECT_LIST.${project}.TAGS.${tag}`)),

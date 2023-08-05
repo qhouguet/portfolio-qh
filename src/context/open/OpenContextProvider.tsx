@@ -5,6 +5,7 @@ type Open = {
 	handleOpen: () => void;
 };
 
+// On vient créer un context provider pour notre state Open du menu qui est utilisé à plusieurs niveaux
 export const Context = createContext<Open>({} as Open);
 
 export const OpenContextProvider = ({ children }: PropsWithChildren) => {

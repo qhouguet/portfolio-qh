@@ -4,8 +4,15 @@ import contentEN from '../../data/en/content.json';
 import { at } from 'lodash';
 import { LanguageEnum } from 'src/models/enum/Language';
 
+// Ici on vient gérer toute la logique de changement de langue +
+// la récupération des données avec lodash
+
+// Dans notre context, on récupère une fonction t qui va "translate" le path qu'on lui envoie
+// et renvoyer un array avec le contenu de notre JSON data.
+// On récupère aussi une fonction changeLanguage qui nous permettra de changer la langue du folio
 type DataContext = [(path: string) => string, (l: LanguageEnum) => void];
 
+// On va utiliser un switch / case sur notre enum pour gérer les langues du folio
 export const DataContextProvider = ({ children }: PropsWithChildren) => {
 	const [language, setLanguage] = useState(LanguageEnum.FR);
 
