@@ -1,27 +1,59 @@
-# React + TypeScript + Vite
+<!-- ABOUT THE PROJECT -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## A propos du projet
 
-Currently, two official plugins are available:
+[![Portfolio Houguet Quentin Screenshot][product-screenshot]](https://portfolio.qhouguet.fr/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce projet a été réalisé dans le cadre de ma formation **OpenClassrooms** et me servira de vitrine pour présenter mes réalisations.
+J'ai décidé d'utiliser React plutôt qu'un framework plus léger (type **AstroJS**) pour continuer de monter en compétences dessus et pouvoir m'orienter vers des emplois qui utilisent cette technologie.
 
-## Expanding the ESLint configuration
+### Réalisé avec
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- ⚛️ React
+- 🖊️ TailwindCSS
+- ⚡ Vite
 
-- Configure the top-level `parserOptions` property like this:
+<!-- GETTING STARTED -->
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Installation locale
+
+Pour lancer le projet en local, suivez ces instructions :
+
+### Installation
+
+1. Clonez the repo
+
+```sh
+git clone https://github.com/qhouguet/portfolio-qh.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Installez les dépendances
+
+```sh
+npm install
+```
+
+2. Lancez le projet
+
+```sh
+npm run dev
+```
+
+<!-- CONTACT -->
+
+## Contact
+
+Quentin Houguet - [@quentonar](https://twitter.com/quentonar) - contact@qhouguet.fr
+
+Lien du projet : [https://github.com/qhouguet/portfolio-qh](https://github.com/qhouguet/portfolio-qh)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+- This readme version is a simplified version of this [github repository](https://github.com/othneildrew/Best-README-Template) by Othneildrew
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[product-screenshot]: cover.png
