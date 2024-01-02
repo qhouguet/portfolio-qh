@@ -147,7 +147,8 @@
 				"2": "Contactez moi : ",
 				"3": "contact@qhouguet.fr"
 			},
-			"COPYRIGHT": "Copyright © 2023, Houguet Quentin | Site hébergé sur Vercel, nom de domaine Infomaniak"
+			"COPYRIGHT-1": "Copyright © ",
+			"COPYRIGHT-2": ", Houguet Quentin | Site hébergé sur Vercel, nom de domaine Infomaniak"
 		}
 	}
 }

@@ -6,7 +6,12 @@ import { Contact } from './Contact';
 export const Footer = () => {
 	const [t] = useDataContext();
 
-	const COPYRIGHT = t('FOOTER.CONTACT.COPYRIGHT');
+	const creationYear = 2023;
+	const currentYear = new Date().getFullYear();
+
+	const COPYRIGHT = `${t('FOOTER.CONTACT.COPYRIGHT-1')} ${creationYear}-${currentYear} ${t(
+		'FOOTER.CONTACT.COPYRIGHT-2'
+	)}`;
 
 	return (
 		<footer className="flex flex-col bg-myGreen-neutral px-8 pb-16 pt-8 lg:py-8">
