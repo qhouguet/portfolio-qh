@@ -8,11 +8,11 @@ export const Headings = () => {
 	const DESCRIPTION = ['1', '2', '3'].map((description) => t(`HEADER.INTRODUCTION.${description}`));
 
 	return (
-		<div className="relative z-10 flex flex-col items-start text-6xl text-myGreen-dark lg:items-center lg:text-9xl">
+		<div className="text-my-green-dark relative z-10 flex flex-col items-start text-6xl lg:items-center lg:text-9xl">
 			<h1 className="pb-4 lg:text-center">
 				<span className="font-regular inline-block text-xl lg:text-3xl">{TITLE[0]}</span>
 				<br />
-				<span className="inline-block pt-4 font-extrabold uppercase text-myBlack-dark lg:pt-8">
+				<span className="text-my-black-dark inline-block pt-4 font-extrabold uppercase lg:pt-8">
 					{TITLE[1]}
 				</span>
 				<br />
@@ -20,7 +20,7 @@ export const Headings = () => {
 			</h1>
 			<p className="py-6 text-2xl lg:w-1/2 lg:text-center">
 				{DESCRIPTION[0]}
-				<span className="font-bold text-myBlack-dark">{DESCRIPTION[1]}</span>
+				<span className="text-my-black-dark font-bold">{DESCRIPTION[1]}</span>
 				{DESCRIPTION[2]}
 			</p>
 		</div>

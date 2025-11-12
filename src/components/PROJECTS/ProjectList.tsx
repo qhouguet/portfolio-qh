@@ -18,7 +18,7 @@ export const ProjectList = () => {
 	const DESCRIPTION = t('PROJECTS.DESCRIPTION');
 
 	return (
-		<section id="PROJECTS" className="bg-myGreen-light bg-topography bg-repeat px-4 pt-16 lg:px-8">
+		<section id="PROJECTS" className="bg-my-green-light bg-topography bg-repeat px-4 pt-16 lg:px-8">
 			<div className="lg:mx-auto lg:max-w-screen-xl">
 				<div className="lg:w-1/2">
 					<h2 className="subtitle pb-2">{TITLE}</h2>

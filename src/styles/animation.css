@@ -6,9 +6,15 @@
 	transition: transform 150ms linear;
 }
 
-.bun {
-	@apply absolute block h-1 w-9
-	rounded-sm bg-myGreen-light;
+@layer components {
+	.bun {
+		background-color: var(--color-my-green-light);
+		position: absolute;
+		display: block;
+		height: 0.25rem;
+		width: 2.25rem;
+		border-radius: 0.125rem;
+	}
 }
 
 .bun-top {
@@ -96,6 +102,11 @@
 		visibility: visible;
 		pointer-events: auto;
 		opacity: 1;
+		background-color: var(--color-my-green-light);
+	}
+
+	.burger-container.isOpen {
+		background-color: var(--color-my-green-light);
 	}
 }
 

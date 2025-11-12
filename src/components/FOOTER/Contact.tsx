@@ -12,13 +12,13 @@ export const Contact = () => {
 	return (
 		<div className="w-5/6 py-16 lg:w-auto lg:py-0">
 			<h3 className="font-bold uppercase">{CONTACTTITLE}</h3>
-			<p className="pt-2 text-xl text-myGreen-dark">
+			<p className="text-my-green-dark pt-2 text-xl">
 				{CONTACTDESCRIPTION[0]}
 				<br />
-				<span className="font-semibold text-myBlack-dark">{CONTACTDESCRIPTION[1]}</span>
+				<span className="text-my-black-dark font-semibold">{CONTACTDESCRIPTION[1]}</span>
 				<a
 					href={`mailto:${CONTACTDESCRIPTION[2]}`}
-					className="underline hover:text-myOrange-neutral"
+					className="hover:text-my-orange-neutral underline"
 				>
 					{CONTACTDESCRIPTION[2]}
 				</a>

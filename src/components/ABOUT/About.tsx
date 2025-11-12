@@ -7,7 +7,7 @@ export const About = () => {
 	const CONTENT = t('ABOUT.CONTENT');
 
 	return (
-		<section className="bg-myGreen-light bg-topography bg-repeat px-4 lg:px-8">
+		<section className="bg-my-green-light bg-topography bg-repeat px-4 lg:px-8">
 			<figure
 				id="ABOUT"
 				className="flex w-full flex-col py-16 lg:mx-auto lg:max-w-screen-xl lg:flex-row-reverse lg:justify-between"

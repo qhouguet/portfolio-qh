@@ -8,7 +8,7 @@ export const MenuButton = () => {
 			type="button"
 			aria-label="Open/Close menu button"
 			onClick={handleOpen}
-			className="pointer-events-auto fixed bottom-8 z-50 flex h-16 w-16 items-center justify-center overflow-hidden rounded-full bg-myGreen-dark lg:hidden"
+			className="bg-my-green-dark pointer-events-auto fixed bottom-8 z-50 flex h-16 w-16 items-center justify-center overflow-hidden rounded-full lg:hidden"
 		>
 			<div
 				className={`burger-container flex h-full w-full items-center justify-center ${

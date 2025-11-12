@@ -27,7 +27,7 @@ export const LanguageSelection = () => {
 			<h3 className="font-bold uppercase">{TITLE}</h3>
 			<CustomSelect toggleMenu={toggleMenu} selectedLang={selectedLang} open={open} />
 			{open && (
-				<div className="w-1/2 cursor-pointer pl-0.5 text-xl text-myGreen-dark">
+				<div className="text-my-green-dark w-1/2 cursor-pointer pl-0.5 text-xl">
 					{Object.keys(LanguageEnum).map((language) => (
 						<CustomOption
 							key={language}

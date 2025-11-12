@@ -1,6 +1,48 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@import './animation.css';
+
+@theme {
+	--color-my-green-light: #fdfff5;
+	--color-my-green-neutral: #c4d0ae;
+	--color-my-green-dark: #0a3d38;
+	--color-my-black-dark: #202020;
+	--color-my-orange-neutral: #fd6f63;
+
+	--font-family-open: 'Open Sans';
+
+	--animate-expand: expand 200ms linear 3000ms forwards;
+	--animate-expandReverse: expandReverse 200ms linear 3000ms forwards;
+	--animate-bgFlash: bgFlash 3000ms ease-in forwards;
+
+	@keyframes expand {
+		0% {
+			height: 0;
+			top: 100vh;
+		}
+		100% {
+			height: 100vh;
+			top: 0;
+		}
+	}
+
+	@keyframes expandReverse {
+		0% {
+			height: 0;
+		}
+		100% {
+			height: 100vh;
+		}
+	}
+
+	@keyframes bgFlash {
+		0% {
+			background-color: #c4d0ae;
+		}
+		100% {
+			background-color: #fff;
+		}
+	}
+}
 
 :root {
 	font-size: 16px;
@@ -12,7 +54,7 @@ body {
 
 @layer components {
 	.subtitle {
-		@apply text-3xl font-bold uppercase text-myGreen-dark;
+		@apply text-my-green-dark text-3xl font-bold uppercase;
 	}
 }
 
@@ -25,8 +67,4 @@ body {
 		padding-left: 0;
 		padding-right: 2rem;
 	}
-}
-
-.isOpen {
-	background-color: #fdfff5;
 }

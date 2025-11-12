@@ -20,14 +20,14 @@ export const Project = ({ IMAGE, TITLE, TAGS, URL, PAGEURL, DESCRIPTION }: Props
 				/>
 			</a>
 			<div className="flex flex-col pt-4 lg:h-full lg:w-4/6 lg:items-start lg:pl-8 lg:pt-0">
-				<h3 className="text-center text-2xl font-bold text-myGreen-dark">{TITLE}</h3>
+				<h3 className="text-my-green-dark text-center text-2xl font-bold">{TITLE}</h3>
 				<ul className="flex flex-row justify-center py-4 lg:justify-start">
 					{TAGS.map((tag) => {
 						return <Tag key={tag} TAG={tag} />;
 					})}
 				</ul>
 				<a
-					className="transform text-center text-2xl underline transition duration-100 hover:scale-110 hover:text-myOrange-neutral"
+					className="hover:text-my-orange-neutral transform text-center text-2xl underline transition duration-100 hover:scale-110"
 					href={URL}
 				>
 					Github

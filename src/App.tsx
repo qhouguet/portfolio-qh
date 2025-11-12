@@ -1,10 +1,10 @@
-import { Header } from './components/HEADER/Header';
-import { HeroBanner } from './components/HEADER/HeroBanner';
-import { About } from './components/ABOUT/About';
+import { Header } from './components/Header/Header';
+import { HeroBanner } from './components/Header/HeroBanner';
+import { About } from './components/About/About';
 import { useOpenContext } from './context/open';
-import { Experience } from './components/EXPERIENCE/Experience';
-import { ProjectList } from './components/PROJECTS/ProjectList';
-import { Footer } from './components/FOOTER/Footer';
+import { Experience } from './components/Experience/Experience';
+import { ProjectList } from './components/Projects/ProjectList';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
 	const { open } = useOpenContext();

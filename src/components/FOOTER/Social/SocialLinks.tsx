@@ -5,7 +5,7 @@ type Props = {
 
 export const SocialLinks = ({ NAME, URL }: Props) => {
 	return (
-		<a className="pt-2 hover:text-myOrange-neutral" href={URL}>
+		<a className="hover:text-my-orange-neutral pt-2" href={URL}>
 			{NAME}
 		</a>
 	);

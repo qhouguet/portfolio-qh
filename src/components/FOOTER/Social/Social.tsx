@@ -14,7 +14,7 @@ export const Social = () => {
 	return (
 		<div className="pt-16 lg:pt-0">
 			<h3 className="font-bold uppercase">{TITLE}</h3>
-			<div className="flex flex-col text-xl text-myGreen-dark">
+			<div className="text-my-green-dark flex flex-col text-xl">
 				{LINKS.map((link) => (
 					<SocialLinks NAME={link.NAME} URL={link.URL} key={link.NAME} />
 				))}

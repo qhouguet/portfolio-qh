@@ -14,8 +14,8 @@ export const Footer = () => {
 	)}`;
 
 	return (
-		<footer className="flex flex-col bg-myGreen-neutral px-8 pb-16 pt-8 lg:py-8">
-			<div className="flex flex-col text-2xl text-myBlack-dark lg:mx-auto lg:w-full lg:max-w-screen-xl lg:flex-row lg:justify-between lg:pb-16">
+		<footer className="bg-my-green-neutral flex flex-col px-8 pb-16 pt-8 lg:py-8">
+			<div className="text-my-black-dark flex flex-col text-2xl lg:mx-auto lg:w-full lg:max-w-screen-xl lg:flex-row lg:justify-between lg:pb-16">
 				<LanguageSelection />
 				<Social />
 				<Contact />
