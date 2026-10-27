@@ -65,7 +65,7 @@
 				"VUEJS": "VueJs",
 				"NESTJS": "NestJS",
 				"NEXTJS": "NextJS",
-				"POSTEGRESQL": "PostegreSQL"
+				"POSTGRESQL": "PostgreSQL"
 			}
 		}
 	},

@@ -9,7 +9,7 @@ export const Experience = () => {
 		URLIMAGE: t(`TOOLS.KNOWN.TOOL_LIST.${techno}.IMAGEURL`)
 	}));
 	const LEARNTITLE = t('TOOLS.LEARNING.TITLE');
-	const LEARNLIST = ['VUEJS', 'NESTJS', 'NEXTJS', 'POSTEGRESQL'].map((learn) =>
+	const LEARNLIST = ['VUEJS', 'NESTJS', 'NEXTJS', 'POSTGRESQL'].map((learn) =>
 		t(`TOOLS.LEARNING.LEARNING_LIST.${learn}`)
 	);
 
